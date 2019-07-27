@@ -26,7 +26,7 @@ export class CrudFactory {
     create: RequestHandler = (req: Request, res: Response, next: NextFunction) => {
         const options = req.query || {};
         const values = req.body || {};
-        console.log(values,  'create')
+        console.log(values, 'create');
         this.model.create(values, options).then(instance => {
             res.status(201);
             res.header('Location', path.join('/api', this.model.tableName.toLowerCase(), instance.id.toString()));
