@@ -1,5 +1,5 @@
 FROM node:10.15.3
-ENV NODE_ENV prod
+ENV NODE_ENV dev
 ENV PORT 3000
 WORKDIR /usr/src/app
 COPY package*.json ./
