@@ -27,7 +27,7 @@
     "morgan": "~1.9.1",
     "mysql2": "^1.6.5",
     "node-sass-middleware": "0.11.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "reflect-metadata": "^0.1.13",
     "sequelize": "^4.44.0",
     "sequelize-cli": "^5.5.0",
