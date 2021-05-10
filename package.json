@@ -23,7 +23,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jasmine": "^3.4.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "morgan": "~1.9.1",
     "mysql2": "^1.6.5",
     "node-sass-middleware": "0.11.0",
